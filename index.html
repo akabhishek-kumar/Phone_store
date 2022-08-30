@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+
+    <div class="navbar">
+      <img src="logo.png" style="height: 60px" />
+      <div class="search">
+        <input
+          type="search" name="search" id="myInput" onkeyup="myFunction()" placeholder="SEARCH" />
+      </div>
+      <div class="nav-items">
+        <a href="home.html">Home</a>&nbsp;&nbsp;
+        <a href="product.html">Product</a>&nbsp;&nbsp;
+        <a href="cart.html">Cart</a>
+      </div>
+    </div>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <div class="left-top">
+          <h3>Brand</h3>
+          <input class="checkbox" type="checkbox" data-filter="all" name="all" >
+          <label for="all">All</label><br>
+          <input class="checkbox" type="checkbox" data-filter="samsung" name="samsung" >
+          <label for="samsung">Samsung</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="oppo" name="oppo" >
+          <label for="Oppo">Oppo</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="apple" name="Apple" >
+          <label for="Apple">Apple</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="redmi" name="Xiomi" >
+          <label for="Xiomi">Redmi</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="asus" name="Asus" >
+          <label for="Asus">Asus</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="nokia" name="Nokia" >
+          <label for="Nokia">Nokia</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="oneplus" name="OnePlus" >
+          <label for="OnePlus">OnePlus</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="sony" name="LG" >
+          <label for="LG">Sony</label><br>
+          
+          
+        </div>
+
+        <div class="left-down">
+          <h3>Camera</h3>
+          <input class="checkbox" type="checkbox" data-filter="all" name="all" >
+          <label for="all">All</label><br>
+          <input class="checkbox" type="checkbox" data-filter="2MP" name="2MP" >
+          <label for="2MP">2MP</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="4MP" name="4MP" >
+          <label for="4MP">4MP</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="4MP" name="4MP" >
+          <label for="4MP">4MP</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="8MP" name="8MP" >
+          <label for="8MP">8MP</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="12MP" name="12MP" >
+          <label for="12MP">12MP</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="18MP" name="18MP" >
+          <label for="18MP">18MP</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="34MP" name="34MP" >
+          <label for="34MP">34MP</label><br>
+          <input class="checkbox" type="checkbox" data-filter="48MP" name="48MP" >
+          <label for="48MP">48MP</label><br>
+
+          <input class="checkbox" type="checkbox" data-filter="64MP" name="64MP" >
+          <label for="64MP">64MP</label><br>
+          
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="content samsung">
+          <img src="images/1.png" />
+          <div class="details">
+            <!-- <br > -->
+
+            <li>
+              Samsung M33 5G (128GB)<br />
+              ₹29,900(9% off)
+            </li>
+            <br />
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="content redmi">
+          <img src="images/2.png" />
+          <div class="details">
+            <li>
+              Redmi Note 10(64GB)<br />
+              ₹15,900(9% off)
+            </li>
+            <br />
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="content redmi">
+          <img src="images/3.png" />
+          <div class="details">
+            <li class="phone">
+              Redmi 9(64GB)<br />
+              ₹9,900(9% off)
+            </li>
+            <br />
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="content oneplus">
+          <img src="images/4.png" />
+          <div class="details">
+            <li class="phone">
+              One Plus 10T (256GB)<br />
+              ₹59,900(15% off)
+            </li>
+            <br />
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="content samsung">
+          <img src="images/5.png" />
+          <div class="details">
+            <li class="phone">
+              Samsung Note 10S (128GB)<br />
+              ₹69,900(8% off)
+            </li>
+            <br />
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="content apple">
+          <img src="images/6.png" />
+          <div class="details">
+            <li class="phone">
+              Apple iPhone 11 (128GB)<br />
+              ₹49,900(9% off)
+            </li>
+            <br />
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="content asus">
+          <img src="images/7.png" />
+          <div class="details">
+            <li class="phone">
+              Asus ZenPhone (128GB)<br />
+              ₹44,900(12% off)
+            </li>
+            <br />
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="content honor">
+          <img src="images/10.png" />
+          <div class="details">
+            <li class="phone">
+              Honor 9 prime(64GB)<br />
+              ₹8,900(9% off)
+            </li>
+            <br />
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="content sony">
+          <img src="images/9.png" />
+          <div class="details">
+            <li class="phone">
+              Xepria (128GB)<br />
+              ₹35,900(19% off)
+            </li>
+            <br />
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="content redmi">
+          <img src="images/8.png" />
+          <div class="details">
+            <li class="phone">
+              Redmi Note 11<br />
+              ₹19,900(5% off
+            </li>
+            <br />
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+
+    <footer>@RBR</footer>
+  </body>
+</html>

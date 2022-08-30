@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    margin-bottom: 0;
+   
+}
+.navbar{
+    background-color: rgb(57, 172, 234);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.search{
+    padding-top: 4px;
+
+   
+}
+
+input[type="search"]{
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 0px;
+    margin-left: 200px;
+    width: 500px;
+}
+
+a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(252, 252, 252);
+}
+.nav-items{
+    padding: 15px;
+    
+
+}
+.nav-items a:hover{
+    color: rgb(207, 104, 15);
+}
+
+
+
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    height: 80vh;
+    margin-right: 10px;
+    
+
+
+    
+}
+.left{
+    
+    display: flex;
+    flex-direction: column;
+   /* height: 90%; */
+    width: 15%; 
+    /* border-right: 2px solid black; */
+   
+   
+}
+h3{
+    padding-left: 10px;
+    color: rgb(195, 124, 2);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left-top{
+    margin: 5px 5px 5px 5px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 5px rgb(198, 216, 229);
+    padding-left: 35px;
+    padding-bottom: 10px;
+    
+    background-color: rgb(201, 236, 236);
+height: 50%;
+color: rgb(14, 23, 30);
+   /* border-bottom: 2px dashed black; */
+   
+
+}
+label{
+    color: rgb(3, 105, 105);
+    font-family: sans-serif;
+}
+
+.left-down{
+    margin: 5px 5px 10px 5px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 5px rgb(198, 216, 229);
+padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 50%;
+    background-color: rgb(210, 239, 239);
+
+}
+
+
+.hide{
+    display: none;
+}
+
+
+li{
+    list-style-type:none;
+}
+
+.right
+{
+    overflow: hidden;
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    /* justify-content: space-around; */
+    margin-left: 30px;
+    /* margin-right: 0px; */
+    
+}
+.content{
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+.details {
+    background-color: rgb(221, 239, 239);
+    padding-left: 10px;
+    text-align: center;  
+    border-radius: 10px; 
+    padding-bottom: 10px; 
+    padding-top: 7px;
+    /* margin-left: 50px; */
+}
+
+.content button{
+    background-color: rgb(75, 165, 213);
+    border: 0;
+    color: rgb(245, 215, 22);
+    border-radius: 5px;
+}
+
+.content button:hover{
+    color: yellow;
+    cursor: pointer;
+    background-color: rgb(20, 116, 116);
+}
+
+footer{
+    background-color:  rgb(57, 172, 234);
+    height: 10.5vh;
+    
+}
